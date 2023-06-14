@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="menu-overlay"></div>
+
+  <div class="main-wrapper">
+    <nav>
+      <a href="#" class="logo"><img src="./images/logo.svg" alt="logo"></a>
+      <a href="#" class="btn-menu"><img src="./images/icon-menu.svg" alt="menu icon"></a>
+      <div class="nav-links">
+          <a href="#" class="btn-close"><img src="./images/icon-close-menu.svg" alt="close icon"></a>
+
+          <div class="dropdown-wrapper">
+          <a href="#" class="dropdown">Features <span class="ino"><img src="./images/icon-arrow-up.svg" alt="arrow up icon" class="arrow-icon"></span></a>
+            <div class="dropdown-container">
+              <a href="#"><span><img src="./images/icon-todo.svg" alt=""></span>Todo List</a>
+              <a href="#"><span><img src="./images/icon-calendar.svg" alt=""></span>Calendar</a>
+              <a href="#"><span><img src="./images/icon-reminders.svg" alt=""></span>Reminders</a>
+              <a href="#"><span><img src="./images/icon-planning.svg" alt=""></span>Planning</a>
+            </div>
+          </div>
+
+          <div class="dropdown-wrapper">
+          <a href="#" class="dropdown">Company <span class="ino"><img src="./images/icon-arrow-up.svg" alt="arrow up icon" class="arrow-icon"></span></a>
+            <div class="dropdown-container">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </div>
+          
+          <a href="#" class="main-link">Careers</a>
+          <a href="#" class="main-link">About</a>
+
+        <div class="login-container">
+          <a href="#" class="btn">Login</a>
+          <a href="#" class="btn outlined">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="sub-wrapper">
+
+      <div class="right-container">
+        <img src="./images/image-hero-mobile.png" alt="hero image" class="hero-image">
+        <img src="./images/image-hero-desktop.png" alt="hero image" class="hero-image-desktop">
+      </div>
+
+      <div class="left-container">
+        <main>
+          <h1>Make remote work</h1>
+          <p>Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.</p>
+          <a href="#" class="btn-cta">Learn more</a>
+        </main>
+
+        <footer class="mob-footer">
+          <img src="./images/client-databiz-mob.svg" alt="partners logo">
+          <img src="./images/client-audiophile-mob.svg" alt="partners logo">
+          <img src="./images/client-meet-mob.svg" alt="partners logo">
+          <img src="./images/client-maker-mob.svg" alt="partners logo">
+        </footer>
+        <footer class="desktop-footer">
+          <img src="./images/client-databiz.svg" alt="partners logo">
+          <img src="./images/client-audiophile.svg" alt="partners logo">
+          <img src="./images/client-meet.svg" alt="partners logo">
+          <img src="./images/client-maker.svg" alt="partners logo">
+        </footer>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
